@@ -13,7 +13,7 @@ class HostawayListingManager {
   constructor() {
     this.app = express();
     this.apiBaseUrl = "https://api.hostaway.com/v1/listings";
-    this.port = process.env.PORT || 3000;
+    this.port = process.env.PORT || 5000;
     this.config = getConfig();
     this.listings = [];
 
